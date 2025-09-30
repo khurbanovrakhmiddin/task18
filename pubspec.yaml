@@ -1,0 +1,40 @@
+name: task18_m24
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.8
+  sqflite: ^2.4.2
+  path_provider: ^2.1.5
+  flutter_bloc: ^9.1.1
+  equatable: ^2.0.7
+  path: ^1.9.1
+  dartz: any
+  get_it: any
+  pdf: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  fonts:
+     - family: Roboto
+       fonts:
+         - asset: assets/fonts/Roboto-Bold.ttf
+         - asset: assets/fonts/Roboto-Regular.ttf
